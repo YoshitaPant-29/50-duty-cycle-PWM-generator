@@ -33,3 +33,10 @@ Time	clk	pwm_out
 155	1	0
 jdoodle.v:41: $finish called at 160 (1s)
 160	0	0
+
+From 0 to 80 ns → pwm_out = 1 (HIGH) → 50% ON
+
+From 80 to 160 ns → pwm_out = 0 (LOW) → 50% OFF
+
+This gives a 50% duty cycle PWM wave on each 16-clock-period cycle.
+
